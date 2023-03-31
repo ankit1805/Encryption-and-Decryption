@@ -28,7 +28,7 @@ def encrypt():
         Label(print(message))
         text2=Text(screen1,font="30",bd=4,wrap=WORD)
         print(message)
-        text2.place(x=2,y=30,width=390,height=180)
+        text2.place(x=2,y=30,width=490,height=280)
         text2.insert(END,encrypt)
         print(message)
     elif(password==""):
@@ -54,7 +54,7 @@ def decrypt():
         
         Label(screen2,text="Your text is decrypted ",font="impack 10 bold").place(x=5,y=6)
         text2=Text(screen2,font="30",bd=4,wrap=WORD)
-        text2.place(x=2,y=30,width=390,height=180)
+        text2.place(x=2,y=30,width=490,height=280)
         text2.insert(END,encrypt)
         
     elif(password==""):
